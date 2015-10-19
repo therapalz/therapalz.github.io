@@ -1,0 +1,58 @@
+/*h1{
+  font-size: 75px;
+  font-family: cursive;
+  font-style: italic;
+} */
+
+h4{
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+div.form{
+  text-align: center;
+}
+
+div.logo{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+div.intro{
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+  font-style: italic;
+}
+
+div.about{
+  background-color: lightblue;
+  padding: 150px;
+  text-align: center;
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+div.dyson{
+  background-color: lightblue;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+div.dfa{
+  position: relative;
+  text-align: center;
+  background-color: gray;
+  text-emphasis-color: black;
+}
+
+div.cover{
+  position: absolute;
+  left: 350px;
+}
