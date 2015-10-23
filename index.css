@@ -9,15 +9,19 @@ body {
   margin: 0;
 }
 
-h4{
+h1, h3 {
+  font-family: cursive;
+}
+
+.intro-tagline{
   font-size: 20px;
   font-family: sans-serif;
-
 }
 
 div.form{
   text-align: center;
 }
+
 
 div.logo{
   max-width: 100%;
@@ -28,10 +32,9 @@ div.logo{
 div.intro{
   background-color: white;
   padding: 50px;
-  text-align: center;
+  text-align: left;
   font-size: 35px;
   font-family: cursive;
-  font-style: italic;
 }
 
 div.about{
@@ -39,14 +42,7 @@ div.about{
   /*padding: 150px;*/
   text-align: center;
   font-family: sans-serif;
-}
-
-div.dyson{
-  background-color: lightblue;
-  padding: 50px;
-  text-align: center;
-  font-size: 25px;
-  font-family: sans-serif;
+  color: black;
 }
 
 div.cover{
@@ -61,20 +57,19 @@ div.cover{
 .left {
   vertical-align: top;
   font-size: large;
+  text-align: left;
 }
 
-.publications {
+div.roadmap{
   background-color: lightblue;
   padding: 50px;
-  text-emphasis-color: black;
-  text-align: center;
 }
 
 div.dfa{
   background-color: grey;
   position: relative;
   text-align: center;
-  text-emphasis-color: black;
+  color: black;
 }
 
 .left,
@@ -87,6 +82,9 @@ div.dfa{
 .about-img {
   display: block;
   position: relative;
+  border: grey;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .about-img--1 {
@@ -106,4 +104,9 @@ div.dfa{
 
 .about-img--4 {
   left: 20%;
+}
+
+.about-img--5 {
+  left: 60%;
+  top: 50px;
 }
