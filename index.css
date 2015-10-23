@@ -49,13 +49,6 @@ div.dyson{
   font-family: sans-serif;
 }
 
-div.dfa{
-  position: relative;
-  text-align: center;
-  background-color: gray;
-  text-emphasis-color: black;
-}
-
 div.cover{
   position: absolute;
   left: 350px;
@@ -68,6 +61,20 @@ div.cover{
 .left {
   vertical-align: top;
   font-size: large;
+}
+
+.publications {
+  background-color: lightblue;
+  padding: 50px;
+  text-emphasis-color: black;
+  text-align: center;
+}
+
+div.dfa{
+  background-color: grey;
+  position: relative;
+  text-align: center;
+  text-emphasis-color: black;
 }
 
 .left,
