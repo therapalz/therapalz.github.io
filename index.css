@@ -44,6 +44,16 @@ div.about{
   text-align: center;
   font-family: sans-serif;
   color: black;
+  position: relative;
+}
+
+div.team{
+  vertical-align: top;
+  font-size: large;
+  text-align: left;
+  display: inline-block;
+  width: 80%;
+  min-height: 100px;
 }
 
 div.cover{
@@ -51,19 +61,10 @@ div.cover{
   left: 350px;
 }
 
-.content {
-  position: relative;
-}
-
 .left {
   vertical-align: top;
   font-size: large;
   text-align: left;
-}
-
-div.roadmap{
-  background-color: lightblue;
-  padding: 50px;
 }
 
 div.dfa{
@@ -78,6 +79,40 @@ div.dfa{
   display: inline-block;
   width: 40%;
   min-height: 100px;
+}
+
+div.profiles{
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  display: inline-block;
+  width: 28%;
+  min-height: 300px;
+}
+
+.name{
+  font-size: 30px;
+  text-align: center;
+}
+
+.profile-img{
+  display: block;
+  position: relative;
+  border: white;
+  border-radius: 200px;
+  left: 25%;
+}
+
+.profile--1{
+  background-color: lightgreen;
+}
+
+.profile--2{
+  background-color: lightpink;
+}
+
+.profile--3{
+  background-color: lightyellow;
 }
 
 .about-img {
