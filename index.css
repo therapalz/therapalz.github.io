@@ -4,24 +4,22 @@
   font-style: italic;
 } */
 
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Cabin', sans-serif;
 }
 
-h1, h3 {
-  font-family: cursive;
-}
-
-.intro-tagline{
+.intro-tagline {
   font-size: 20px;
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
 }
 
 div.form{
   text-align: center;
 }
-
 
 div.logo{
   max-width: 100%;
@@ -34,15 +32,13 @@ div.intro{
   padding: 50px;
   text-align: left;
   font-size: 35px;
-  font-family: cursive;
   text-align: center;
 }
 
 div.about{
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   /*padding: 150px;*/
   text-align: center;
-  font-family: sans-serif;
   color: black;
   position: relative;
 }
@@ -84,7 +80,6 @@ div.dfa{
 div.profiles{
   font-size: 20px;
   text-align: center;
-  font-family: cursive;
   display: inline-block;
   width: 28%;
   min-height: 300px;
@@ -145,4 +140,9 @@ div.profiles{
 .about-img--5 {
   left: 60%;
   top: 50px;
+}
+
+p {
+  line-height: 1.8;
+  color: #828282;
 }
