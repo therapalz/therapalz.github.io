@@ -1,0 +1,182 @@
+.text-title--hero,
+.hero-title {
+  font-size: 72px;
+  color: #423773;
+  font-weight: 600;
+}
+.text-subtitle--hero,
+.hero-subtitle {
+  font-size: 24px;
+  color: #727272;
+  font-weight: 400;
+}
+.text-title {
+  font-size: 48px;
+  color: #423773;
+  font-weight: 600;
+}
+.text-subtitle {
+  font-size: 32px;
+  color: #282828;
+  font-weight: 400;
+}
+.text-paragraph,
+p {
+  font-size: 18px;
+  color: #727272;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 580px;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 48px;
+  color: #282828;
+  font-weight: 600;
+}
+h2 {
+  font-size: 32px;
+  color: #282828;
+  font-weight: 400;
+}
+#logo {
+  width: 200px;
+}
+.hero {
+  text-align: center;
+}
+.block {
+  padding: 75px;
+  border-bottom: 1px solid #d0d0d0;
+  position: relative;
+}
+.block-content-wrap {
+  width: 50%;
+  display: inline-block;
+}
+.block-image-wrap {
+  width: 49%;
+  max-width: 800px;
+  padding-left: 50px;
+  display: inline-block;
+}
+.block-image-wrap img {
+  margin-bottom: 75px;
+  position: relative;
+  border-radius: 3px;
+}
+.block-title-wrap {
+  position: relative;
+}
+.block-title {
+  font-size: 48px;
+  color: #423773;
+  font-weight: 600;
+}
+.block-title-deco {
+  background: #423773;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -75px;
+  width: 50px;
+  z-index: -999;
+}
+.chunk {
+  margin: 45px 0;
+}
+.chunk-title {
+  margin-bottom: 0;
+}
+.chunk-list {
+  padding-left: 16px;
+  list-style: circle;
+}
+.chunk-list-item {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+.team-wrap {
+  text-align: center;
+}
+.team-item {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.team-avatar {
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+}
+.team-name {
+  margin-bottom: 0;
+}
+.team-role {
+  color: #727272;
+  font-size: 18px;
+}
+.team-divider {
+  width: 50px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 1px solid #d0d0d0;
+}
+#about {
+  position: relative;
+}
+a {
+  color: #e66801;
+}
+a:visited {
+  color: #c73600;
+}
+#contact {
+  font-size: 32px;
+}
+footer {
+  background: #fafafa;
+  padding: 30px;
+  text-align: center;
+}
+footer p {
+  max-width: none;
+}
+footer a {
+  display: block;
+}
+#dfa-logo {
+  width: 50px;
+  height: 50px;
+}
+.grid-item {
+  margin-bottom: 25px;
+}
+@media (max-width: 948px) {
+  .block-image-wrap,
+  .block-title-deco {
+    display: none;
+  }
+}
+@media (max-width: 1270px) {
+  .grid-hide {
+    display: none;
+  }
+}
+@media (max-width: 948px) {
+  .text-paragraph {
+    max-width: none;
+  }
+  .block {
+    padding-left: 25px;
+    padding-rigt: 25px;
+  }
+  .block-content-wrap {
+    width: 100%;
+  }
+}

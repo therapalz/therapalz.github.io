@@ -1,0 +1,175 @@
+$base-lvl1 = #282828
+$base-lvl2 = #727272
+$base-lvl3 = #D0D0D0
+$deep-purple = #423773
+
+typography(size, color, weight)
+  font-size: size
+  color: color
+  font-weight: weight
+
+.text-title--hero
+  typography(72px, $deep-purple, 600)
+
+.text-subtitle--hero
+  typography(24px, $base-lvl2, 400)
+
+.text-title
+  typography(48px, $deep-purple, 600)
+
+.text-subtitle
+  typography(32px, $base-lvl1, 400)
+
+.text-paragraph
+  typography(18px, $base-lvl2, 400)
+  line-height: 1.8
+  max-width: 580px
+
+body
+  font-family: 'Josefin Sans', sans-serif
+  margin: 0
+  padding: 0
+
+h1
+  typography(48px, $base-lvl1, 600)
+
+h2
+  typography(32px, $base-lvl1, 400)
+
+p
+  @extend .text-paragraph
+
+#logo
+  width: 200px
+
+.hero
+  text-align: center
+
+  &-title
+    @extend .text-title--hero
+
+  &-subtitle
+    @extend .text-subtitle--hero
+
+.block
+  padding: 75px
+  border-bottom: 1px solid $base-lvl3
+  position: relative
+
+  &-content-wrap
+    width: 50%
+    display: inline-block
+
+  &-image-wrap
+    width: 49%
+    max-width: 800px
+    padding-left: 50px
+    display: inline-block
+    img
+      margin-bottom: 75px
+      position: relative
+      border-radius: 3px
+
+  &-title-wrap
+    position: relative
+
+  &-title
+    typography(48px, $deep-purple, 600)
+
+  &-title-deco
+    background: $deep-purple
+    position: absolute
+    top: 0
+    bottom: 0
+    left: -75px
+    width: 50px
+    z-index: -999
+
+
+.chunk
+  margin: 45px 0
+
+  &-title
+    margin-bottom: 0
+
+  &-list
+    padding-left: 16px
+    list-style: circle
+
+    &-item
+      margin-bottom: 16px
+      line-height: 1.6
+
+.team
+  &-wrap
+    text-align: center
+
+  &-item
+    margin-bottom: 100px
+    text-align: center
+
+  &-avatar
+    border-radius: 100%
+    display: block
+    margin: 0 auto
+    position: relative
+    width: 50%
+
+  &-name
+    margin-bottom: 0
+
+  &-role
+    color: $base-lvl2
+    font-size: 18px
+
+  &-divider
+    width: 50px
+    margin: 8px 0
+    display: inline-block
+    border-bottom: 1px solid $base-lvl3
+#about
+  position: relative
+
+a
+  color: #e66801
+
+  &:visited
+    color: #c73600
+
+#contact
+  font-size: 32px
+
+footer
+  background: #fafafa
+  padding: 30px
+  text-align: center
+
+  p
+    max-width: none
+  a
+    display: block
+
+#dfa-logo
+  width: 50px
+  height: 50px
+
+.grid-item
+  margin-bottom: 25px
+
+@media (max-width: 948px)
+  .block-image-wrap,
+  .block-title-deco
+    display: none
+
+@media (max-width: 1270px)
+  .grid-hide
+    display: none
+
+@media (max-width: 948px)
+  .text-paragraph
+    max-width: none
+  .block
+    padding-left: 25px
+    padding-rigt: 25px
+    &-content-wrap
+      width: 100%
