@@ -40,6 +40,19 @@ function onDomLoaded(e) {
   var imageBlock = document.querySelector('#images')
   applySticky = applySticky.bind(this, aboutBlock, imageBlock)
   // window.addEventListener('scroll', applySticky)
+
+  var grid = document.querySelector('.grid')
+  var msnry = new Masonry(grid, {
+    itemSelector: '.grid-item',
+    gutter: 25
+  })
+
+  imagesLoaded(grid, function() {
+    // layout Masonry after each image loads
+    msnry.layout();
+  });
+
+  console.log('hi')
 }
 
 document.addEventListener('DOMContentLoaded', onDomLoaded)
