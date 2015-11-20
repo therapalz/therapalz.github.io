@@ -49,10 +49,8 @@ function onDomLoaded(e) {
 
   imagesLoaded(grid, function() {
     // layout Masonry after each image loads
-    msnry.layout();
-  });
-
-  console.log('hi')
+    msnry.layout()
+  })
 }
 
 document.addEventListener('DOMContentLoaded', onDomLoaded)
