@@ -61,6 +61,7 @@ div.cover{
   vertical-align: top;
   font-size: large;
   text-align: left;
+  text-decoration: none;
 }
 
 div.dfa{
@@ -83,11 +84,13 @@ div.profiles{
   display: inline-block;
   width: 28%;
   min-height: 300px;
+  color: grey;
 }
 
 .name{
   font-size: 30px;
   text-align: center;
+  color: black;
 }
 
 .profile-img{
@@ -99,23 +102,19 @@ div.profiles{
 }
 
 .profile--1{
-  background-color: lightgreen;
 }
 
 .profile--2{
-  background-color: lightpink;
 }
 
 .profile--3{
-  background-color: lightyellow;
 }
 
 .about-img {
   display: block;
   position: relative;
-  border: grey;
+  border: black;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px grey;
 }
 
 .about-img--1 {
@@ -138,8 +137,18 @@ div.profiles{
 }
 
 .about-img--5 {
-  left: 60%;
-  top: 50px;
+  left: 80%;
+  top: -90px;
+}
+
+.about-img--6 {
+  left: 20%;
+  top: -250px;
+}
+
+.about-img--7 {
+  left: 50%;
+  top: -200px;
 }
 
 p {
