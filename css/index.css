@@ -57,6 +57,7 @@ h2 {
 .block-content-wrap {
   width: 50%;
   display: inline-block;
+  vertical-align: top;
 }
 .block-image-wrap {
   width: 49%;
@@ -95,7 +96,6 @@ h2 {
 .chunk-list {
   padding-left: 16px;
   list-style: circle;
-  font-size: 16px;
 }
 .chunk-list-item {
   margin-bottom: 16px;
