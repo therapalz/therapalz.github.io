@@ -156,6 +156,7 @@ footer a {
 }
 .grid-item {
   margin-bottom: 25px;
+  width:25%;
 }
 @media (max-width: 948px) {
   .block-image-wrap,
@@ -179,7 +180,7 @@ footer a {
   }
   .block {
     padding-left: 25px;
-    padding-rigt: 25px;
+    padding-right: 25px;
   }
   .block-content-wrap {
     width: 100%;
