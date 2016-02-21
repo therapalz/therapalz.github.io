@@ -100,6 +100,18 @@ h2 {
   margin-bottom: 16px;
   line-height: 1.6;
 }
+
+.carousel{
+  margin-top:200px;
+  float: right;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 500px;
+    margin: auto;
+}
+
 .team-wrap {
   text-align: center;
 }
