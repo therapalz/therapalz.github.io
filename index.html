@@ -117,7 +117,24 @@
           <p>  
           You may notice we have included a search bar below on this webpage. Right now, your search results will be processed by Google’s search algorithms, but in the near future we hope to develop our own algorithm to rank search results based by higher reviews so caregivers can find specific, highly-rated products they need to help with challenges specific to each.
           </p>
-          <p> <b> Search bar here. </b> </p>
+          <h2>Search Here</h2>
+          <!-- <div id="custom-search-input">
+            <div class="input-group col-md-12">
+                <input type="text" class="search-query form-control" placeholder="Yoyoyo whaddup dawg." />
+                <span class="input-group-btn">
+                  <button class="btn btn-danger" type="button">
+                    <span class=" glyphicon glyphicon-search"></span>
+                  </button>
+                </span>
+            </div>    
+          </div> -->
+
+          <form action="https://google.com/search" method="get">
+            <input type="hidden" class="search-query form-control" name="sitesearch"/>
+            <input type="text" name="q"/>
+            <input type="submit" value="Google search">
+          </form>
+
         </div>
 
         <div class="chunk">
@@ -165,7 +182,7 @@
         </div>
 
         <div class="team-item col-xs-12 col-sm-6 col-lg-4">
-          <img data-name='annlin' src="assets/avatars/giphy.gif" alt="Annlin" class="team-avatar" height="250px">
+          <img data-name='annlin' src="assets/avatars/giphy.gif" alt="Annlin" class="team-avatar" height="175px">
           <h2 class="team-name">Annlin Sheih</h2>
           <div class="team-divider"></div>
           <div class="team-role">Web Development</div>
