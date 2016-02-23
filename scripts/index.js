@@ -101,8 +101,4 @@ function onDomLoaded(e) {
     });
   });
 
-// function viewSlideshow(e) {
-  
-// }
-
 document.addEventListener('DOMContentLoaded', onDomLoaded)
