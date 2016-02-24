@@ -24,9 +24,22 @@
 
     <section id="about" class="block">
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="images" class='grid block-image-wrap'>
+        <img src="assets/fox_headshot_zoomed.png" alt="fox headshot" class="grid-item">
+        <img src="assets/group_working.png" alt="group working" class="grid-item">
+        <img src="assets/fiona_petting.png" alt="Fiona petting" class="grid-item">
+        <img src="assets/fox_working_zoomed.png" alt="fox being built" class="grid-item">
+        <img src="assets/fiona_interview.png" alt="interview" class="grid-item">
+        <img src="assets/colin_working.png" alt="Colin working" class="grid-item">
+        <img src="assets/fiona_working.png" alt="Fiona working" class="grid-item">
+        <img src="assets/fun.png" alt="having fun" class="grid-item">
+        <img src="assets/cat_kiss.jpg" alt="so cute :3" class="grid-item">
+        <img src="assets/colin_surprised.jpg" alt="so cute :3" class="grid-item">
+        <img src="assets/circuit_2015_12.jpg" alt="much circuit" class="grid-item">
+      </div>
+      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+          <!-- <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -39,10 +52,10 @@
             <li data-target="#myCarousel" data-slide-to="9"></li>
             <li data-target="#myCarousel" data-slide-to="10"></li>
             <li data-target="#myCarousel" data-slide-to="11"></li>
-          </ol>
+          </ol> -->
           
           <!-- Wrapper for slides -->
-          <div class="carousel-inner">
+          <!-- <div class="carousel-inner">
             <div class="item active">
               <img src="assets/fox_headshot_zoomed.png" alt="fox headshot">
             </div>
@@ -79,16 +92,17 @@
           </div>
 
           <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+          </a> -->
+        <!-- </div> -->
+      <!-- </div> -->
+
       <div class="block-content-wrap">
 
         <div class='block-title-wrap'>
@@ -117,7 +131,7 @@
           <p>  
           You may notice we have included a search bar below on this webpage. Right now, your search results will be processed by Google’s search algorithms, but in the near future we hope to develop our own algorithm to rank search results based by higher reviews so caregivers can find specific, highly-rated products they need to help with challenges specific to each.
           </p>
-          <h2>Search Here</h2>
+
           <!-- <div id="custom-search-input">
             <div class="input-group col-md-12">
                 <input type="text" class="search-query form-control" placeholder="Yoyoyo whaddup dawg." />
@@ -132,7 +146,7 @@
           <form action="https://google.com/search" method="get">
             <input type="hidden" class="search-query form-control" name="sitesearch"/>
             <input type="text" name="q"/>
-            <input type="submit" value="Google search">
+            <input type="submit" id="search-button">
           </form>
 
         </div>
@@ -146,14 +160,13 @@
 
         <div class="chunk">
           <h2 class="chunk-title">In The News</h2>
-          <p>We are a group of students improving the quality of life for at-home caregivers.</p>
-          <ul class='chunk-list'>
-            <li class=chunk-list-item><a href="http://www.jamesdysonaward.org/projects/therapalz/">James Dyson Project Page</a></li>
-            <li class=chunk-list-item><a href="http://www.dailyillini.com/article/2015/06/u-of-i-students-design-therapeutic-stuffed-animal-to-help-alzheimers-patients">University students design therapeutic stuffed animal to help Alzheimer's patients</a></li>
-            <li class=chunk-list-item><a href="http://stuffedparty.com/therapalz-is-a-stuffed-animal-to-help-alzheimers-patients/">Therapalz is a stuffed animal to help Alzheimer’s patients</a></li>
-          </ul>
+          <p><a href="http://www.jamesdysonaward.org/projects/therapalz/">James Dyson Project Page</a></p>
+          <p><a href="http://www.dailyillini.com/article/2015/06/u-of-i-students-design-therapeutic-stuffed-animal-to-help-alzheimers-patients">University students design therapeutic stuffed animal to help Alzheimer's patients</a></p>
+          <p><a href="http://stuffedparty.com/therapalz-is-a-stuffed-animal-to-help-alzheimers-patients/">Therapalz is a stuffed animal to help Alzheimer’s patients</a></p>
         </div>
+        
       </div>
+
     </section>
 
     <section class="block">
@@ -163,9 +176,7 @@
           Meet The Team
         </h1>
       </div>
-      <div class="chunk">
-        <p>We're currently all students at the University of Illinois at Urbana-Champaign.</p>
-      </div>
+      <div class="chunk"></div>
       <div class="team-wrap row">
         <div class="team-item col-xs-12 col-sm-6 col-lg-4">
           <img data-name='fiona' src="assets/avatars/fiona.png" alt="Fiona" class="team-avatar">
@@ -182,7 +193,7 @@
         </div>
 
         <div class="team-item col-xs-12 col-sm-6 col-lg-4">
-          <img data-name='annlin' src="assets/avatars/giphy.gif" alt="Annlin" class="team-avatar" height="175px">
+          <img data-name='annlin' src="assets/avatars/annlin.png" alt="Annlin" class="team-avatar" height="175px">
           <h2 class="team-name">Annlin Sheih</h2>
           <div class="team-divider"></div>
           <div class="team-role">Web Development</div>
@@ -197,9 +208,7 @@
           Alumni
         </h1>
       </div>
-      <div class="chunk">
-        <p>We're currently all students at the University of Illinois at Urbana-Champaign.</p>
-      </div>
+      <div class="chunk"></div>
       <div class="team-wrap row">
         <div class="team-item col-xs-12 col-sm-6 col-lg-4">
           <img data-name='willy' src="assets/avatars/willy.png" alt="Willy" class="team-avatar">
